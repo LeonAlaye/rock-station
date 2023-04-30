@@ -43,6 +43,8 @@ obtenerRemeras()
 {nombre:"v8", comienzo:"1980", pais:"argentina", genero:"Rock", hit:"Destrucción", precio:1200, imagen:"./img/v8.png", codigo:30}
 ] */
 
+/* bandas o caciones en productos.json con comillas que fueron modificadas para q no rompan el codigo: i cannnnnt get not s..., guns nnnnnn roses, sweeet chil o, (cryin),  */
+
 const inputBanda = document.querySelector("#input-banda")
 const botonBanda = document.querySelector("#boton-banda")
 const carritoRemeras = recuperarCarrito()
