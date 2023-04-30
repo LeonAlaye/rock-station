@@ -6,7 +6,7 @@ function obtenerRemeras() {
   fetch(URL)
   .then(response => response.json())
   .then(data => listaBandas.push(...data))
-  .then((listaBandas) => mostrarTodosLosProductos(listaBandas))
+  .then(() => mostrarTodosLosProductos(listaBandas))
   .catch(error => console.log(error))
 }
 obtenerRemeras()

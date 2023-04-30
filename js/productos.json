@@ -6,7 +6,7 @@
 {"nombre":"metallica", "comienzo":"1981", "pais":"estados unidos","genero":"Rock", "hit":"Nothing Else Matters", "precio":1200, "imagen":"./img/metallica.png", "codigo":6},
 {"nombre":"guns n roses", "comienzo":"1985", "pais":"Estados Unidos","genero":"Rock", "hit":"Sweet Child O Mine", "precio":1200, "imagen":"./img/guns.png", "codigo":7},
 {"nombre":"pink floyd", "comienzo":"1965", "pais":"inglaterra","genero":"Rock", "hit":"Another Brick in the Wall", "precio":1200, "imagen":"./img/pink.png", "codigo":8},
-{"nombre":"kiss", "comienzo":"1973", "pais":"estados unidos","genero":"Rock", "hit":"I Was Made for Lovin’ You", "precio":1200, "imagen":"./img/kiss.png", "codigo":9},
+{"nombre":"kiss", "comienzo":"1973", "pais":"estados unidos","genero":"Rock", "hit":"I Was Made for Lovin You", "precio":1200, "imagen":"./img/kiss.png", "codigo":9},
 {"nombre":"nirvana", "comienzo":"1987", "pais":"estados unidos","genero":"Rock", "hit":"Smells Like Teen Spirit", "precio":1200, "imagen":"./img/nirvana.png", "codigo":10},
 {"nombre":"aerosmith", "comienzo":"1970", "pais":"estados unidos","genero":"Rock", "hit":"Love in an Elevator (Cryin)", "precio":1200, "imagen":"./img/aerosmith.png", "codigo":11},
 {"nombre":"iron maiden", "comienzo":"1975", "pais":"inglaterra","genero":"Rock", "hit":"The Trooper", "precio":1200, "imagen":"./img/iron.png", "codigo":12},
