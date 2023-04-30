@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock station</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- este ultimo script puede estar mal, ese type o defer pueden sacarse -->
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <h1>Rock Station</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="./pages/carrito.html">Carrito</a></li>
+                <li><a href="./pages/login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Bienvenido a Rock Station! el lugar perfecto para los amantes de la musica</h2>
+        <p>Seguro te estes preguntando de que trata esta pagina ¿una tienda online de musica?, ¿un juego de preguntas y respuestas sobre musicos?, ¿un lugar seguro para investigar sobre la historia de algunos artistas? bueno... podemos ser todo eso y un poco mas. Nuestro sentido principal es tener un espacio publico para todos los que esten interesados sobre este tema, pero por sobre todo queremos mantener vivo este movimiento y promover que nuevas personas se empiezen a interesar por este amplio mundo.</p>
+        <div>
+            <h3>Antes de que comiences a ver nuestras remeras queremos conocerte un poco mas, tendremos en cuenta tus gustos para ampliar la lista de productos que tenemos disponibles. Por favor ingrese el nombre de su banda favorita:</h3>
+            <input type="text" id="input-banda">
+            <button id="boton-banda">Enviar</button>
+        </div>
+        <div>
+            <div class="titulo-remeras">
+                <h3>Seccion: Tienda de remeras</h3>
+            </div>
+                <div id="remera">
+
+                </div>
+        </div>
+        <div class="flex-carrito">
+            <div>
+                <button id="terminar-compra-btn">Calcular Total</button>
+                <div id="carrito-temporal"></div>
+            </div>
+            <div>
+                <button id="pagar-boton">Pagar</button>
+                <div id="div-pagar"></div>
+            </div>
+        </div>
+        <div class="titulo-remeras">
+            <h3>Seccion: Minijuegos🎮</h3>
+        </div>
+        <div class="centrar-divs">
+            <h4>Ingresa el nombre de alguna banda que este en la tienda y conoce un poco mas sobre su historia.</h4>
+        <div>
+            <input type="text" id="input-juego">
+            <button id="boton-juego">Consultar Informacion</button>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <h4>Estudiante: Leon Alaye</h4>
+        <h4>Comision JavaScript 39470</h4>
+    </footer>
+    <script src="./js/index.js"></script>
+    <!-- <script src="../js/carrito.js"></script> -->
+</body>
+</html>

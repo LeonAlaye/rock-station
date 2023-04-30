@@ -1,0 +1,161 @@
+/*-----------------------------------------------------------HEADER---------------------------------------------*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+main{
+    background-color: darksalmon;
+    padding: 30px;
+}
+
+img {
+    width: 250px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+nav ul {
+            list-style: none;
+            display: flex;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+}
+nav ul li {
+                text-align: center;
+                margin: 20px;
+                font-size: 20px;
+                font-family: 'Amaranth', sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*-----------------------------------------------------------MAIN---------------------------------------------*/
+
+h2{
+    font-size: 35px;
+}
+
+p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.titulo-remeras {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulo-remeras h3{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.productooo{
+    background-color:black;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border: 0;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
+
+    h4 {
+        margin: 0;
+    }
+
+    img {
+        margin: 0;
+    }
+}
+
+.centradoProducto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrar-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.centrar-divs h4{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+footer{
+    background-color: gray;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.flex-carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-carrito div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+}
+
+#remeraCarrito img {
+    width: 60px;
+}
+
+#remeraCarrito .remeraEnCarro {
+    display: flex;
+    background-color:black;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border: 0;
+}
