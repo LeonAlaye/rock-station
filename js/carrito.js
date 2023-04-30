@@ -6,14 +6,19 @@ const carritoRemeras = JSON.parse(localStorage.getItem("carritoDeRemeras")) || [
 
 function mostrarCarritoCompleto(banda) {
     return `<div class="remeraEnCarro">
-                <div>
                 <img src=".${banda.imagen}" alt="">
-                    <h4>${banda.nombre}</h4>
-                </div>
-                <div>
+
+            <div class="finalizamo">    
+                    <div>
                     <h4>$${banda.precio}</h4>
+                    </div> 
+
+                    <div>
                     <button id="${banda.codigo}">Eliminar</button>
-                </div>
+                    </div> 
+
+            </div>
+
             </div>`
 }
 
@@ -27,7 +32,7 @@ function llenarCarrito(){
         })
         habilitarBotonesEliminar()
     } else {
-        divremeraCarrito.innerHTML = "No hay productos en el carrito."
+        divremeraCarrito.innerHTML = "📫No hay productos en el carrito.📫"
     }
 }
 llenarCarrito()
